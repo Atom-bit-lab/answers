@@ -24,3 +24,12 @@ newspapers = [
 budget = int(input("Input budget"))
 combinations = find_subscription_combinations(budget, newspapers)
 print(combinations)
+
+#Test cases
+# budget = 40
+# combinations = find_subscription_combinations(budget, newspapers)
+# print(combinations)
+
+# budget = 35
+# combinations = find_subscription_combinations(budget, newspapers)
+# print(combinations)
